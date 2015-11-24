@@ -86,6 +86,10 @@ function drawInstructions() {
     var lineHeight = 20;
     var margin = 10;
 
+    //background color
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "#BDBDBD";
+
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.font = "bold 15px Georgia";
     ctx.fillText('Welcome to "Save the Mouse"', margin, margin + line++ * lineHeight);
