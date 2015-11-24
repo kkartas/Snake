@@ -93,7 +93,7 @@ function drawInstructions() {
     ctx.fillText('Move your pointer to keep the mouse from the snake.', margin, margin + line++ * lineHeight);
     ctx.fillText('You must keep your pointer inside the square.', margin, margin + line++ * lineHeight);
     ctx.fillText('The snake gets faster as he gets more hungry!', margin, margin + line++ * lineHeight);
-    ctx.fillText('Known bugs: If you hit outside the grey box, the mouse is stuck.', margin, margin + line++ * lineHeight);
+    ctx.fillText('Known bugs: If you hit outside the grey box, the mouse is stucks.', margin, margin + line++ * lineHeight);
     ctx.fillText('Click anywhere in the box to start.', margin, margin + line++ * lineHeight);
 }
 
