@@ -349,3 +349,5 @@ function oscillateValue(frequency, offset, minValue, maxValue) {
     var oscilationFactor = (1 + Math.sin(currentPos / frequency * 2 * Math.PI)) / 2;
     return minValue + (oscilationFactor * (maxValue - minValue));
 }
+//version 0.11.25
+//kkartas.gr
