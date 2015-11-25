@@ -1,6 +1,6 @@
 var canvas, ctx;
 
-// Trick to create arrays filled with zero values
+// Create arrays filled with zero values
 var x = Array.apply(null, Array(20)).map(Number.prototype.valueOf, 0);
 var y = Array.apply(null, Array(20)).map(Number.prototype.valueOf, 0);
 var len = Array.apply(null, Array(20)).map(Number.prototype.valueOf, 10);
