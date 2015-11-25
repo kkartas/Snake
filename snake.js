@@ -44,10 +44,6 @@ var mouseLeftPlayingArea = false;
 function init() {
     canvas = document.getElementById("myCanvas");
     ctx = canvas.getContext('2d');
-    //background color
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = "#BDBDBD";
-
 
     canvas.addEventListener('mousemove', function (evt) {
         if (!mouseLeftPlayingArea)  // Mouse can only move if they stayed in the area.
@@ -96,7 +92,6 @@ function drawInstructions() {
     ctx.fillText('Move your pointer to keep the mouse from the snake.', margin, margin + line++ * lineHeight);
     ctx.fillText('You must keep your pointer inside the square.', margin, margin + line++ * lineHeight);
     ctx.fillText('The snake gets faster as he gets more hungry!', margin, margin + line++ * lineHeight);
-    ctx.fillText('Known bugs: If you hit outside the grey box, the mouse stucks.', margin, margin + line++ * lineHeight);
     ctx.fillText('Click anywhere in the box to start.', margin, margin + line++ * lineHeight);
 }
 
